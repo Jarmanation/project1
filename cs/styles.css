@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.links {
+  border: 1px solid #fff;
+  /* For debugging */
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: white;
+  height: 50px;
+  flex: 1;
+  text-align: center;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+.navbar-brand{
+
+  padding-left: 7.5%;
+}
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Add this */
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+}
+
+.ingredients {
+
+font-size: 20px;
+
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: Black;
+}
+.photo-grid-container {
+  display: wrap;
+  justify-content: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+
+.top {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+}
+
+.photo-grid {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  /* Change this */
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 25%;
+  height: auto;
+  min-width:300px;
+  min-height:300px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.photo-grid-item-main {
+  border: 1px solid #fff;
+  width: 100%;
+  height: auto;
+}
